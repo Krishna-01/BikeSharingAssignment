@@ -1,12 +1,14 @@
 ## Bike Sharing System
 ### A Multiple Linear Regression Model
 
-Table of Contents
+# Table of Contents
+
 General Info
 Technologies Used
 Conclusions
 Acknowledgements
-General Information
+
+# General Information
 
 A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
 
@@ -20,12 +22,14 @@ Which variables are significant in predicting the demand for shared bikes. How w
 
 Business Goal: You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.
 
-Conclusions
+# Conclusions
 The r2_score on the training dataset is 0.828 and the adjusted r2_score is 0.825 and for the test dataset is
 0.800. First using RFE(Recursive feature elimination) we have got a set of 15 features and then by using manual methods we have dropped one by one feature until we have achieved a model with p values less than 0.05 and VIF less than 5 and r2_score of greater than 0.80 (80%).
-Technologies Used
+
+# Technologies Used
 library - numpy, pandas, statsmodels, sklearn, warnings, seaborn, matplotlib
-Acknowledgements
+
+# Acknowledgements
 Give credit here.
 
 References : StackOverflow

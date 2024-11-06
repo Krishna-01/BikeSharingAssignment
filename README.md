@@ -1,5 +1,5 @@
-Bike Sharing System
-A Multiple Linear Regression Model
+## Bike Sharing System
+### A Multiple Linear Regression Model
 
 Table of Contents
 General Info

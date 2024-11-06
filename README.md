@@ -3,7 +3,7 @@
 
 # Table of Contents
 
-General Info
+-[General Info](# General Information)
 Technologies Used
 Conclusions
 Acknowledgements
